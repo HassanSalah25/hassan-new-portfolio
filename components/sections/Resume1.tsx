@@ -26,7 +26,7 @@ export default function Resume1() {
 						<div className="col-lg-6 col-12">
 							<div className="resume-card p-lg-6 p-4 mb-lg-0 mb-6">
 								<div className="resume-card-header d-flex align-items-end">
-									<img className="border-linear-1 border-3 pb-2 pe-2" src="/assets/imgs/resume/resume-1/icon-1.svg" alt="education" />
+									<img className="border-linear-1 border-3 pb-2 pe-2" src="assets/imgs/resume/resume-1/icon-1.svg" alt="education" />
 									<h3 className="fw-semibold mb-0 border-bottom border-600 border-3 pb-2 w-100">Education</h3>
 								</div>
 								<div className="resume-card-body">
@@ -48,7 +48,7 @@ export default function Resume1() {
 						<div className="col-lg-6 col-12">
 							<div className="resume-card p-lg-6 p-4 h-100">
 								<div className="resume-card-header d-flex align-items-end">
-									<img className="border-linear-1 border-3 pb-2 pe-2" src="/assets/imgs/resume/resume-1/icon-2.svg" alt="experience" />
+									<img className="border-linear-1 border-3 pb-2 pe-2" src="assets/imgs/resume/resume-1/icon-2.svg" alt="experience" />
 									<h3 className="fw-semibold mb-0 border-bottom border-600 border-3 pb-2 w-100">Experience</h3>
 								</div>
 								<div className="resume-card-body">

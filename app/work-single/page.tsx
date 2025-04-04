@@ -46,7 +46,7 @@ export default function WorkSingle() {
 										<h6>fushion.wr</h6>
 									</div>
 								</div>
-								<img src="/assets/imgs/work/img-background.png" alt="" />
+								<img src="assets/imgs/work/img-background.png" alt="" />
 								<div className="col-lg-8 mx-lg-auto mt-8">
 									<h5 className="fs-5 fw-medium">Description</h5>
 									<p className="text-300">

@@ -14,7 +14,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isOffC
 					{/*</Link>*/}
 					<div className="container py-3 px-0">
 						<Link className="navbar-brand d-flex main-logo align-items-center ms-lg-0 ms-md-5 ms-3" href="/">
-							<img src="/assets/imgs/template/gohar.png" alt="infinia" />
+							<img src="assets/imgs/template/gohar.png" alt="infinia" />
 							<span className="fs-4 ms-2">Hassan Gohar</span>
 						</Link>
 						<div className="d-none d-lg-flex">

@@ -62,7 +62,7 @@ export default function PortfolioFilter() {
 						<div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
 							<Link href="#">
 								<img className="rounded-3 w-100 zoom-img"
-									 src="/assets/imgs/projects/projects-1/cotton-house.png" alt="Cotton House"/>
+									 src="assets/imgs/projects/projects-1/cotton-house.png" alt="Cotton House"/>
 							</Link>
 							<div className="d-flex align-items-center mt-4">
 								<Link href="#" className="project-card-content">
@@ -82,7 +82,7 @@ export default function PortfolioFilter() {
 						<div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
 							<Link href="#">
 								<img className="rounded-3 w-100 zoom-img"
-									 src="/assets/imgs/projects/projects-1/grand-gate.png" alt="Grand Gate"/>
+									 src="assets/imgs/projects/projects-1/grand-gate.png" alt="Grand Gate"/>
 							</Link>
 							<div className="d-flex align-items-center mt-4">
 								<Link href="#" className="project-card-content">
@@ -102,7 +102,7 @@ export default function PortfolioFilter() {
 						<div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
 							<Link href="#">
 								<img className="rounded-3 w-100 zoom-img"
-									 src="/assets/imgs/projects/projects-1/cordiana.png" alt="Cordiana ERP"/>
+									 src="assets/imgs/projects/projects-1/cordiana.png" alt="Cordiana ERP"/>
 							</Link>
 							<div className="d-flex align-items-center mt-4">
 								<Link href="#" className="project-card-content">
@@ -122,7 +122,7 @@ export default function PortfolioFilter() {
 						<div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
 							<Link href="#">
 								<img className="rounded-3 w-100 zoom-img"
-									 src="/assets/imgs/projects/projects-1/neo-health.png" alt="Neo Healthcare"/>
+									 src="assets/imgs/projects/projects-1/neo-health.png" alt="Neo Healthcare"/>
 							</Link>
 							<div className="d-flex align-items-center mt-4">
 								<Link href="#" className="project-card-content">
@@ -142,7 +142,7 @@ export default function PortfolioFilter() {
 						<div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
 							<Link href="#">
 								<img className="rounded-3 w-100 zoom-img"
-									 src="/assets/imgs/projects/projects-1/aladdin-directory.png"
+									 src="assets/imgs/projects/projects-1/aladdin-directory.png"
 									 alt="Egypt Business Directory"/>
 							</Link>
 							<div className="d-flex align-items-center mt-4">

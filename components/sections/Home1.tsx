@@ -12,7 +12,7 @@ export default function Home1() {
 							<p className="text-300 mb-6">
 								I'm a Laravel and WordPress developer with 3+ years of experience building over 20 scalable web apps—from e-commerce platforms and ERP systems to LMS solutions. I turn ideas into fast, secure, and maintainable products that drive growth.
 							</p>
-							<Link href="/assets/resume.pdf" className="btn btn-gradient me-2" target="_blank">
+							<Link href="assets/resume.pdf" className="btn btn-gradient me-2" target="_blank">
 								Download CV
 								<i className="ri-download-line ms-2" />
 							</Link>
@@ -45,7 +45,7 @@ export default function Home1() {
 					</div>
 				</div>
 				<div className="shape-1 position-absolute bottom-0 start-50 z-1 ms-10 d-none d-md-block">
-					<img className="position-relative z-1 " src="/assets/imgs/hero/hero-1/logo1.png" alt="man" />
+					<img className="position-relative z-1 " src="assets/imgs/hero/hero-1/logo1.png" alt="man" />
 					<div className="position-absolute top-50 start-0 translate-middle z-0 mt-8 ms-10 ps-8">
 					</div>
 				</div>

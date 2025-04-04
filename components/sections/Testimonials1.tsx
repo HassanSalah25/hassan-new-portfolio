@@ -56,7 +56,7 @@ export default function Testimonials1() {
 										<SwiperSlide>
 											<div className="bg-white card-testimonial-1 p-lg-7 p-md-5 mx-3 mx-md-0 p-4 border-2 rounded-4 position-relative">
 												<div className="mb-6 logo">
-													<img src="/assets/imgs/testimonials/testimonials-1/logo-1.png" alt="logo" />
+													<img src="assets/imgs/testimonials/testimonials-1/logo-1.png" alt="logo" />
 												</div>
 												<div className="d-flex mb-5">
 													<i className="ri-star-fill fs-7 text-primary-1" />
@@ -67,7 +67,7 @@ export default function Testimonials1() {
 												</div>
 												<h6 className="mb-7">“Working with William was an absolute pleasure. His attention to detail and user-focused design approach significantly improved our product's usability”</h6>
 												<Link href="/#" className="d-flex align-items-center">
-													<img className="icon_65 avatar" src="/assets/imgs/testimonials/testimonials-1/avatar-1.png" alt="infinia" />
+													<img className="icon_65 avatar" src="assets/imgs/testimonials/testimonials-1/avatar-1.png" alt="infinia" />
 													<h6 className="ms-2 mb-0">John Doe <span className="fs-6 fw-regular"> - Head of Legal and Compliance, Tech Innovators</span></h6>
 												</Link>
 												<div className="position-absolute top-0 end-0 m-5">
@@ -88,7 +88,7 @@ export default function Testimonials1() {
 										<SwiperSlide>
 											<div className="bg-white card-testimonial-1 p-lg-7 p-md-5 mx-3 mx-md-0 p-4 border-2 rounded-4 position-relative">
 												<div className="mb-6 logo">
-													<img src="/assets/imgs/testimonials/testimonials-1/logo-2.png" alt="logo" />
+													<img src="assets/imgs/testimonials/testimonials-1/logo-2.png" alt="logo" />
 												</div>
 												<div className="d-flex mb-5">
 													<i className="ri-star-fill fs-7 text-primary-1" />
@@ -99,7 +99,7 @@ export default function Testimonials1() {
 												</div>
 												<h6 className="mb-7">“Working with William was an absolute pleasure. His attention to detail and user-focused design approach significantly improved our product's usability”</h6>
 												<Link href="/#text-primary-1" className="d-flex align-items-center">
-													<img className="icon_65 avatar" src="/assets/imgs/testimonials/testimonials-1/avatar-2.png" alt="infinia" />
+													<img className="icon_65 avatar" src="assets/imgs/testimonials/testimonials-1/avatar-2.png" alt="infinia" />
 													<h6 className="ms-2 mb-0">John Doe <span className="fs-6 fw-regular"> - Head of Legal and Compliance, Tech Innovators</span></h6>
 												</Link>
 												<div className="position-absolute top-0 end-0 m-5">
@@ -120,7 +120,7 @@ export default function Testimonials1() {
 										<SwiperSlide>
 											<div className="bg-white card-testimonial-1 p-lg-7 p-md-5 mx-3 mx-md-0 p-4 border-2 rounded-4 position-relative">
 												<div className="mb-6 logo">
-													<img src="/assets/imgs/testimonials/testimonials-1/logo-1.png" alt="logo" />
+													<img src="assets/imgs/testimonials/testimonials-1/logo-1.png" alt="logo" />
 												</div>
 												<div className="d-flex mb-5">
 													<i className="ri-star-fill fs-7 text-primary-1" />
@@ -131,7 +131,7 @@ export default function Testimonials1() {
 												</div>
 												<h6 className="mb-7">“Working with William was an absolute pleasure. His attention to detail and user-focused design approach significantly improved our product's usability”</h6>
 												<Link href="/#" className="d-flex align-items-center">
-													<img className="icon_65 avatar" src="/assets/imgs/testimonials/testimonials-1/avatar-1.png" alt="infinia" />
+													<img className="icon_65 avatar" src="assets/imgs/testimonials/testimonials-1/avatar-1.png" alt="infinia" />
 													<h6 className="ms-2 mb-0">John Doe <span className="fs-6 fw-regular"> - Head of Legal and Compliance, Tech Innovators</span></h6>
 												</Link>
 												<div className="position-absolute top-0 end-0 m-5">
@@ -152,7 +152,7 @@ export default function Testimonials1() {
 										<SwiperSlide>
 											<div className="bg-white card-testimonial-1 p-lg-7 p-md-5 mx-3 mx-md-0 p-4 border-2 rounded-4 position-relative">
 												<div className="mb-6 logo">
-													<img src="/assets/imgs/testimonials/testimonials-1/logo-2.png" alt="logo" />
+													<img src="assets/imgs/testimonials/testimonials-1/logo-2.png" alt="logo" />
 												</div>
 												<div className="d-flex mb-5">
 													<i className="ri-star-fill fs-7 text-primary-1" />
@@ -163,7 +163,7 @@ export default function Testimonials1() {
 												</div>
 												<h6 className="mb-7">“Working with William was an absolute pleasure. His attention to detail and user-focused design approach significantly improved our product's usability”</h6>
 												<Link href="/#text-primary-1" className="d-flex align-items-center">
-													<img className="icon_65 avatar" src="/assets/imgs/testimonials/testimonials-1/avatar-2.png" alt="infinia" />
+													<img className="icon_65 avatar" src="assets/imgs/testimonials/testimonials-1/avatar-2.png" alt="infinia" />
 													<h6 className="ms-2 mb-0">John Doe <span className="fs-6 fw-regular"> - Head of Legal and Compliance, Tech Innovators</span></h6>
 												</Link>
 												<div className="position-absolute top-0 end-0 m-5">
@@ -184,7 +184,7 @@ export default function Testimonials1() {
 										<SwiperSlide>
 											<div className="bg-white card-testimonial-1 p-lg-7 p-md-5 mx-3 mx-md-0 p-4 border-2 rounded-4 position-relative">
 												<div className="mb-6 logo">
-													<img src="/assets/imgs/testimonials/testimonials-1/logo-1.png" alt="logo" />
+													<img src="assets/imgs/testimonials/testimonials-1/logo-1.png" alt="logo" />
 												</div>
 												<div className="d-flex mb-5">
 													<i className="ri-star-fill fs-7 text-primary-1" />
@@ -195,7 +195,7 @@ export default function Testimonials1() {
 												</div>
 												<h6 className="mb-7">“Working with William was an absolute pleasure. His attention to detail and user-focused design approach significantly improved our product's usability”</h6>
 												<Link href="/#" className="d-flex align-items-center">
-													<img className="icon_65 avatar" src="/assets/imgs/testimonials/testimonials-1/avatar-1.png" alt="infinia" />
+													<img className="icon_65 avatar" src="assets/imgs/testimonials/testimonials-1/avatar-1.png" alt="infinia" />
 													<h6 className="ms-2 mb-0">John Doe <span className="fs-6 fw-regular"> - Head of Legal and Compliance, Tech Innovators</span></h6>
 												</Link>
 												<div className="position-absolute top-0 end-0 m-5">
@@ -216,7 +216,7 @@ export default function Testimonials1() {
 										<SwiperSlide>
 											<div className="bg-white card-testimonial-1 p-lg-7 p-md-5 mx-3 mx-md-0 p-4 border-2 rounded-4 position-relative">
 												<div className="mb-6 logo">
-													<img src="/assets/imgs/testimonials/testimonials-1/logo-2.png" alt="logo" />
+													<img src="assets/imgs/testimonials/testimonials-1/logo-2.png" alt="logo" />
 												</div>
 												<div className="d-flex mb-5">
 													<i className="ri-star-fill fs-7 text-primary-1" />
@@ -227,7 +227,7 @@ export default function Testimonials1() {
 												</div>
 												<h6 className="mb-7">“Working with William was an absolute pleasure. His attention to detail and user-focused design approach significantly improved our product's usability”</h6>
 												<Link href="/#text-primary-1" className="d-flex align-items-center">
-													<img className="icon_65 avatar" src="/assets/imgs/testimonials/testimonials-1/avatar-2.png" alt="infinia" />
+													<img className="icon_65 avatar" src="assets/imgs/testimonials/testimonials-1/avatar-2.png" alt="infinia" />
 													<h6 className="ms-2 mb-0">John Doe <span className="fs-6 fw-regular"> - Head of Legal and Compliance, Tech Innovators</span></h6>
 												</Link>
 												<div className="position-absolute top-0 end-0 m-5">
@@ -255,9 +255,9 @@ export default function Testimonials1() {
 					</div>
 				</div>
 				<div className="shape-1 position-absolute bottom-0 start-50 z-1 ms-10 ps-10 d-none d-md-block">
-					<img className="position-relative z-1" src="/assets/imgs/testimonials/testimonials-1/man.png" alt="man" />
+					<img className="position-relative z-1" src="assets/imgs/testimonials/testimonials-1/man.png" alt="man" />
 					<div className="position-absolute top-50 start-50 translate-middle z-0 mt-5">
-						<img className="ribbonRotate" src="/assets/imgs/testimonials/testimonials-1/decorate.png" alt="" />
+						<img className="ribbonRotate" src="assets/imgs/testimonials/testimonials-1/decorate.png" alt="" />
 					</div>
 				</div>
 			</section>

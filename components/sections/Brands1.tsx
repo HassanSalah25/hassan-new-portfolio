@@ -20,25 +20,25 @@ export default function Brands1() {
 						<ul className="carouselTicker__list">
 
 							<li className="carouselTicker__item">
-								<img src="/assets/imgs/brands/brands-1/aladdin.svg" alt="Aladdin-EG" width={80} />
+								<img src="assets/imgs/brands/brands-1/aladdin.svg" alt="Aladdin-EG" width={80} />
 							</li>
 							<li className="carouselTicker__item">
-								<img src="/assets/imgs/brands/brands-1/cottonhouse.png" alt="Cotton House Kidswear" width={80} />
+								<img src="assets/imgs/brands/brands-1/cottonhouse.png" alt="Cotton House Kidswear" width={80} />
 							</li>
 							<li className="carouselTicker__item">
-								<img src="/assets/imgs/brands/brands-1/corddigital.png" alt="CordDigital" width={80} />
+								<img src="assets/imgs/brands/brands-1/corddigital.png" alt="CordDigital" width={80} />
 							</li>
 							<li className="carouselTicker__item">
-								<img src="/assets/imgs/brands/brands-1/grandgate.png" alt="Grand Gate" width={80} />
+								<img src="assets/imgs/brands/brands-1/grandgate.png" alt="Grand Gate" width={80} />
 							</li>
 							<li className="carouselTicker__item">
-								<img src="/assets/imgs/brands/brands-1/neo.png" alt="Neo Health Register" width={80} />
+								<img src="assets/imgs/brands/brands-1/neo.png" alt="Neo Health Register" width={80} />
 							</li>
 							<li className="carouselTicker__item">
-								<img src="/assets/imgs/brands/brands-1/duke.png" alt="Duke" width={80} />
+								<img src="assets/imgs/brands/brands-1/duke.png" alt="Duke" width={80} />
 							</li>
 							<li className="carouselTicker__item">
-								<img src="/assets/imgs/brands/brands-1/modevia.png" alt="Modevia" width={80} />
+								<img src="assets/imgs/brands/brands-1/modevia.png" alt="Modevia" width={80} />
 							</li>
 
 						</ul>
