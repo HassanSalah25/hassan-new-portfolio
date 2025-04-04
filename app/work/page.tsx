@@ -9,13 +9,12 @@ export default function Work() {
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-8 mx-lg-auto text-center">
-							<Link href="/#" className="btn btn-gradient d-inline-block text-uppercase">recent Work</Link>
+							<Link href="https://github.com/HassanSalah25/" className="btn btn-gradient d-inline-block text-uppercase">Explore My Code</Link>
 							<h3 className="ds-3 mt-3 mb-4 text-dark">
 								Explore <span className="text-300">My Latest Work and Discover the</span> Craftsmanship Behind <span className="text-300">Each Design</span>
 							</h3>
 							<p className="text-300 fs-5">
-								Explore my latest work and discover the craftsmanship behind each design: <br />
-								a detailed look into how I bring innovation and creativity to life
+								Welcome to a curated collection of the real-world projects I've built using Laravel, WordPress, React, and other modern technologies. Below is a detailed list of my featured work, designed to showcase my technical capabilities and development expertise. This portfolio is crafted as a reference hub to share with HR professionals, clients, and collaborators via platforms like LinkedIn and Fiverr.
 							</p>
 						</div>
 					</div>
