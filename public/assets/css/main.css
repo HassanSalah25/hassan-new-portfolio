@@ -14344,5 +14344,23 @@ strong {
   transform: scale(1.1);
 }
 
+.thumbnail-row {
+  overflow-x: auto;
+  padding: 10px 0;
+}
+.thumbnail:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
 
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=main.css.map */

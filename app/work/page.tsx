@@ -1,8 +1,10 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import projectsData from "@/app/work/projectsData";
+import ProjectCarousel from "@/components/ProjectCarousel";
 
 export default function Work() {
+
 	return (
 		<Layout headerStyle={1} footerStyle={1}>
 			<section className="section-work pt-120 pb-150">
@@ -25,10 +27,7 @@ export default function Work() {
 							{projectsData.map((project, index) => (
 								<div className="card-custom" data-index={index} key={project.title}>
 									<div className="card__inner bg-6 p-lg-6 p-md-4 p-3">
-										<div className="card__image-container zoom-img position-relative">
-											<img className="card__image" src={project.img} alt={project.title} />
-											<Link href={project.link || "#"} className="card-image-overlay position-absolute start-0 end-0 w-100 h-100" />
-										</div>
+										<ProjectCarousel project={project} />
 										<div className="card__content px-md-4 px-3">
 											<div className="card__title d-md-flex align-items-center mb-0 mb-lg-2">
 												<Link href={project.link || "#"} className="card_title_link">
