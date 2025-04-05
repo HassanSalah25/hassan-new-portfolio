@@ -37,7 +37,7 @@ export default function ProjectCarousel({ project }: any) {
                 />
             </div>
             <div className="thumbnail-row d-flex justify-content-center gap-2 flex-wrap">
-                {project.images.map((img, idx) => (
+                {project.images.map((img: string, idx: number) => (
                     <div
                         key={idx}
                         className={`thumbnail border ${selectedImageIndex === idx ? "border-primary" : "border-light"}`}
