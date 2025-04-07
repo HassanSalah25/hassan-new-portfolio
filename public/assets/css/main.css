@@ -4062,7 +4062,7 @@ textarea.form-control {
   gap: 40px 0;
 }
 .section-service-list .card-scroll .cards .card-custom {
-  position: sticky;
+  /*position: sticky;*/
   top: 0;
 }
 .section-service-list .card-scroll .cards .card-custom .card__inner {
@@ -4116,7 +4116,7 @@ textarea.form-control {
   gap: 40px 0;
 }
 .section-work .card-scroll .cards .card-custom {
-  position: sticky;
+  /*position: sticky;*/
   top: 0;
 }
 .section-work .card-scroll .cards .card-custom .card__inner {
@@ -4188,7 +4188,7 @@ textarea.form-control {
     gap: 40px 0;
   }
   .section-work .card-scroll .cards .card-custom {
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
   }
   .section-work .card-scroll .cards .card-custom .card__inner {
@@ -4276,7 +4276,7 @@ textarea.form-control {
     gap: 40px 0;
   }
   .section-work .card-scroll .cards .card-custom {
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
   }
   .section-work .card-scroll .cards .card-custom .card__inner {
@@ -4337,7 +4337,7 @@ textarea.form-control {
     gap: 40px 0;
   }
   .section-service-list .card-scroll .cards .card-custom {
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
   }
   .section-service-list .card-scroll .cards .card-custom .card__inner {
