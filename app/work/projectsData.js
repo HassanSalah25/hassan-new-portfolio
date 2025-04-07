@@ -38,7 +38,7 @@ const projectsData = [
     {
         id: 3,
         title: "Cotton House Kidswear - E-Commerce",
-        category: ["Ecommerce"],
+        category: ["E-commerce"],
         description: "CottonHouseKidsWear is an e-commerce website that sells custom clothing for all ages and genders. The platform is designed to offer an easy-to-use shopping experience, allowing customers to browse various categories of clothes, view product details, and purchase customized clothing items. Customers can select sizes, colors, and styles based on their preferences. The website is built using Laravel PHP, MySQL, and other modern web technologies to ensure high performance, security, and scalability. The front-end is clean and user-friendly, with responsive design ensuring that the site functions well on both mobile and desktop devices.",
         img: "",
         date: "16 JAN",
@@ -86,7 +86,7 @@ const projectsData = [
     {
         id: 3,
         title: "AT Store - E-Commerce",
-        category: ["Ecommerce"],
+        category: ["E-commerce"],
         description: "A stylish, efficient store tailored for fashion and accessories. Includes a dynamic admin panel, discount system, order tracking, and full product customization.",
         img: "",
         date: "16 JAN",
@@ -98,7 +98,7 @@ const projectsData = [
     {
         id: 3,
         title: "Masterchef - E-Commerce",
-        category: ["Ecommerce"],
+        category: ["E-commerce"],
         description: "A sleek e-commerce store for culinary tools and home kitchen items. Built for speed and user engagement, with advanced filtering and smart recommendations.",
         img: "",
         date: "16 JAN",
@@ -122,7 +122,7 @@ const projectsData = [
     {
         id: 10,
         title: "DUKE - E-Commerce",
-        category: ["Ecommerce"],
+        category: ["E-commerce"],
         description: "A stylish fashion website showcasing premium men's clothing. Developed with custom theme edits, mega menus, and performance optimization for global reach.",
         img: "",
         date: "01 DEC",
@@ -170,7 +170,7 @@ const projectsData = [
     {
         id: 14,
         title: "Paper Jewels - E-Commerce",
-        category: ["Ecommerce"],
+        category: ["E-commerce"],
         description: "An elegant online store for handcrafted paper accessories. Features include product variations, wishlists, and seamless checkout. Designed with a minimalist aesthetic and excellent mobile support.",
         img: "",
         date: "28 DEC",
@@ -182,7 +182,7 @@ const projectsData = [
     {
         id: 21,
         title: "Al Motqd - E-Commerce",
-        category: ["Ecommerce"],
+        category: ["E-commerce"],
         description: "An e-commerce platform built with Laravel.",
         img: "",
         date: "28 DEC",
@@ -193,8 +193,8 @@ const projectsData = [
     },
     {
         id: 22,
-        title: "KMG Castor - Ecommerce",
-        category: ["Ecommerce"],
+        title: "KMG Castor - E-commerce",
+        category: ["E-commerce"],
         description: "Customized payment gateway integration for a heavy-duty wheels and casters supplier. Enhanced with cart customization and shipping rule flexibility.",
         img: "",
         date: "28 DEC",
@@ -237,7 +237,7 @@ const projectsData = [
         github: null,
         link: "https://corddigital.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png","assets/imgs/projects/corddigital/1.png"]
+        images: ["assets/imgs/projects/corddigital/1.png"]
     },
     {
         id: 6,
@@ -345,7 +345,7 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Wordpress, ", "MySQL, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png","assets/imgs/projects/heritage/1.png"]
+        images: ["assets/imgs/projects/heritage/1.png"]
     },
     {
         id: 26,
@@ -362,7 +362,7 @@ const projectsData = [
     {
         id: 24,
         title: "E-Commerce Builder - E-Commerce",
-        category: ["Ecommerce"],
+        category: ["E-commerce"],
         description: "An e-commerce platform builder built with Laravel.",
         img: "",
         date: "28 DEC",
@@ -383,6 +383,18 @@ const projectsData = [
         tools: ["Django, ", "MySQL, ", "Python, ", "HTML, ", "CSS, ", "JS"],
         images: ["assets/imgs/projects/gohar.png"]
     },
+    {
+        id: 27,
+        title: "SHAHA - E-commerce Platform",
+        category: ["E-commerce"],
+        description: "An e-commerce platform for Koolen, integrated with a mobile application, sharing the same payment gateways and shipment methods.",
+        img: "",
+        date: "31 DEC",
+        github: null,
+        link: "https://shaha.com.sa/",
+        tools: ["Laravel", "Vuejs", "MySQL", "JavaScript", "HTML", "CSS"],
+        images: ["assets/imgs/projects/shaha/1.png"]
+    }
 ];
 
 export default projectsData;
