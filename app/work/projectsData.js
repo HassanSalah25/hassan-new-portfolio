@@ -189,7 +189,7 @@ const projectsData = [
         github: null,
         link: "https://almotqd.shafiqa-directory.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/ALMOTQD.png"]
+        images: ["assets/imgs/projects/ALMOTQD/ALMOTQD.png","assets/imgs/projects/ALMOTQD/1.png"]
     },
     {
         id: 22,
