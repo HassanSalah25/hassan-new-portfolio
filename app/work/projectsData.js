@@ -11,9 +11,16 @@ const projectsData = [
         tools: ["Laravel, ", "MySQL, ", "HTML, ", "CSS, ", "JS"],
         images: ["assets/imgs/projects/aladdin/aladdin-directory.png", "assets/imgs/projects/aladdin/1.png"],
         responsibilities: [
-            "Developed core backend APIs",
-            "Contributed to frontend UI/UX",
-            "Integrated business logic with external services"
+            "Designed and developed RESTful APIs using Laravel to manage business listings, categories, and user profiles.",
+            "Implemented advanced search functionality with keyword matching, filters, and geolocation proximity using MySQL full-text search.",
+            "Integrated Google Maps API for interactive map views and location-based service discovery.",
+            "Built admin dashboard with role-based access control for managing listings, users, and reported content.",
+            "Implemented frontend UI using Blade templates, HTML5, SCSS, and vanilla JavaScript for dynamic interactivity.",
+            "Established authentication and authorization logic using Laravel Sanctum for both users and admins.",
+            "Handled file uploads for business logos and gallery images with validation, storage linking, and optimization.",
+            "Wrote modular, reusable backend services and controller logic following SOLID principles.",
+            "Conducted extensive testing and debugging across multiple devices to ensure responsiveness and performance.",
+            "Deployed project to production using shared hosting with GitHub integration and CI/CD via Git Hooks."
         ],
         role: ["Backend", "Frontend"]
 
@@ -28,7 +35,16 @@ const projectsData = [
         github: "https://github.com/HassanSalah25/neo-healthcare",
         link: "https://github.com/HassanSalah25/neo-healthcare",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/neo/neo.png","assets/imgs/projects/neo/1.png"]
+        images: ["assets/imgs/projects/neo/neo.png","assets/imgs/projects/neo/1.png"],
+        responsibilities: [
+            "Built appointment registration logic with dynamic scheduling and doctor availability",
+            "Created secure backend APIs using Laravel to manage users, services, and appointments",
+            "Designed patient-friendly frontend with interactive forms and real-time slot updates",
+            "Integrated email notifications for appointment confirmations and cancellations",
+            "Implemented admin dashboard to manage doctors, services, and appointment history",
+            "Optimized database queries for performance and scalability using Eloquent ORM"
+        ],
+        role: ["Backend", "Frontend"],
     },
     {
         id: 3,
@@ -40,7 +56,16 @@ const projectsData = [
         github: null,
         link: "https://shoaamc.com/",
         tools: ["WordPress, ", "PHP, ", "MySQL, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/shoaa/shoaa.png","assets/imgs/projects/shoaa/1.png"]
+        images: ["assets/imgs/projects/shoaa/shoaa.png","assets/imgs/projects/shoaa/1.png"],
+        responsibilities: [
+            "Built appointment registration logic with dynamic scheduling and doctor availability",
+            "Created secure backend APIs using Laravel to manage users, services, and appointments",
+            "Designed patient-friendly frontend with interactive forms and real-time slot updates",
+            "Integrated email notifications for appointment confirmations and cancellations",
+            "Implemented admin dashboard to manage doctors, services, and appointment history",
+            "Optimized database queries for performance and scalability using Eloquent ORM"
+        ],
+        role: ["Backend", "Frontend"],
     },
     {
         id: 4,
@@ -52,7 +77,17 @@ const projectsData = [
         github: "https://github.com/HassanSalah25/cottonhousekidswear",
         link: "https://github.com/HassanSalah25/cottonhousekidswear",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/ct/ct.png","assets/imgs/projects/ct/1.png"]
+        images: ["assets/imgs/projects/ct/ct.png","assets/imgs/projects/ct/1.png"],
+        responsibilities: [
+            "Developed the full e-commerce backend using Laravel and MySQL for product & order management",
+            "Implemented dynamic filters, custom size/color selectors, and product customization logic",
+            "Integrated payment gateway and handled order flow from cart to checkout to confirmation",
+            "Created responsive, user-friendly frontend using Blade, SCSS, and vanilla JS",
+            "Implemented admin panel for inventory tracking, order processing, and user management",
+            "Ensured full mobile compatibility and optimized load times across devices"
+        ],
+        role: ["Backend", "Frontend", "UI/UX"]
+
     },
     {
         id: 5,
@@ -64,7 +99,15 @@ const projectsData = [
         github: "https://github.com/HassanSalah25/grand-gate",
         link: "https://github.com/HassanSalah25/grand-gate",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/grand-gate/grand-gate.png","assets/imgs/projects/grand-gate/1.png"]
+        images: ["assets/imgs/projects/grand-gate/grand-gate.png","assets/imgs/projects/grand-gate/1.png"],
+        responsibilities: [
+            "Developed multi-category portfolio system using Laravel to manage product showcases",
+            "Designed and built custom gallery component to display high-resolution images",
+            "Built responsive layouts to ensure proper display on commercial and mobile devices",
+            "Created admin interface for uploading products, editing info, and managing sections",
+            "Handled SEO optimization including metadata structure and clean URL routing"
+        ],
+        role: ["Backend", "Frontend"]
     },
     {
         id: 6,
@@ -76,8 +119,17 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Python, ", "BeautifulSoup, ", "Scrapy, ", "Requests, ", "MySQL"],
-        images: ["assets/imgs/projects/webscrapping.png"]
-    },{
+        images: ["assets/imgs/projects/webscrapping.png"],
+        responsibilities: [
+            "Built scalable web scrapers using BeautifulSoup, Scrapy, and Requests to extract data from Alibaba and YellowPages",
+            "Structured extracted data into clean, analyzable formats (JSON, CSV, and MySQL)",
+            "Implemented logic to handle pagination, CAPTCHA challenges, and data validation",
+            "Scheduled recurring scraping jobs and created logs for error handling and success tracking",
+            "Wrote modular scripts to allow quick adaptation to new websites and data structures"
+        ],
+        role: ["Python Developer", "Data Engineer"]
+    },
+    {
         id: 7,
         title: "Passion Clinics - Healthcare Center",
         category: ["Healthcare Center"],
@@ -87,7 +139,16 @@ const projectsData = [
         github: "",
         link: "https://passionclinics.com/",
         tools: ["WordPress", "MySQL", "PHP", "HTML", "CSS", "JS"],
-        images: ["assets/imgs/projects/passion/1.png"]
+        images: ["assets/imgs/projects/passion/1.png"],
+        responsibilities: [
+            "Developed a fully responsive WordPress website tailored to medical and cosmetic procedures",
+            "Customized booking forms to handle various procedure types and doctor-specific schedules",
+            "Integrated service showcase with high-resolution images and SEO-optimized descriptions",
+            "Ensured compliance with data protection regulations for sensitive patient inquiries",
+            "Optimized performance and page speed for mobile-first experience in Gulf region"
+        ],
+        role: ["WordPress Developer", "Frontend", "UI/UX"]
+
     },
     {
         id: 8,
@@ -99,7 +160,16 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Laravel, ", "Vue.JS, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/masterchef/masterchef.png","assets/imgs/projects/masterchef/1.png"]
+        images: ["assets/imgs/projects/masterchef/masterchef.png","assets/imgs/projects/masterchef/1.png"],
+        responsibilities: [
+            "Built a full e-commerce system using Laravel and Vue.js with dynamic product filtering",
+            "Integrated wishlist, smart recommendations, and rating systems for better user engagement",
+            "Implemented cart and checkout system with coupon codes and dynamic pricing logic",
+            "Developed a real-time dashboard for admin to manage products, inventory, and orders",
+            "Focused on user behavior tracking for enhancing future marketing and personalization"
+        ],
+        role: ["Full-Stack Developer", "Vue.js Developer", "Laravel Dev"]
+
     },
     {
         id: 9,
@@ -111,7 +181,16 @@ const projectsData = [
         github: null,
         link: "http://test.modevia-clinic.com/",
         tools: ["Laravel, ", "React.js, ", "MySQL, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/modevia/modevia.png","assets/imgs/projects/modevia/1.png"]
+        images: ["assets/imgs/projects/modevia/modevia.png","assets/imgs/projects/modevia/1.png"],
+        responsibilities: [
+            "Developed RESTful APIs with Laravel to manage appointments, services, and doctor schedules",
+            "Implemented a React.js frontend for real-time interactions and calendar-based booking UI",
+            "Created secure login and session management with roles for patients and admins",
+            "Enabled dynamic doctor availability, with filters based on specialty and location",
+            "Collaborated with the medical team to align features with real operational flow"
+        ],
+        role: ["Backend", "Frontend", "React Developer"]
+
     },
     {
         id: 10,
@@ -123,7 +202,16 @@ const projectsData = [
         github: "https://github.com/HassanSalah25/cottonhousekidswear",
         link: "http://at-wears.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/atstore.png"]
+        images: ["assets/imgs/projects/atstore.png"],
+        responsibilities: [
+            "Built custom admin dashboard for managing products, discounts, and customer orders",
+            "Developed a coupon and offer system with time-sensitive logic and usage limits",
+            "Integrated mobile-first design using responsive components and clean UI layouts",
+            "Handled full order flow including cart, checkout, payment integration, and confirmation",
+            "Added product customization options including variants like size, color, and quantity"
+        ],
+        role: ["Full-Stack Developer", "Backend", "Frontend"]
+
     },
     {
         id: 11,
@@ -135,7 +223,16 @@ const projectsData = [
         github: null,
         link: "http://ionology.sa/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/ionology.png"]
+        images: ["assets/imgs/projects/ionology.png"],
+        responsibilities: [
+            "Developed a futuristic company profile site with smooth scroll-based animations",
+            "Implemented sections for digital transformation, innovation, and geospatial services",
+            "Created reusable components for client testimonials, service cards, and team bios",
+            "Optimized metadata and page structure for advanced SEO and Google indexing",
+            "Ensured accessibility and performance across browsers and mobile devices"
+        ],
+        role: ["Frontend", "Backend", "UI/UX"]
+
     },
     {
         id: 12,
@@ -147,7 +244,15 @@ const projectsData = [
         github: null,
         link: "http://dukeksa.com/",
         tools: ["WordPress, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/duke/duke.png","assets/imgs/projects/duke/1.png"]
+        images: ["assets/imgs/projects/duke/duke.png","assets/imgs/projects/duke/1.png"],
+        responsibilities: [
+            "Created a sleek WordPress storefront optimized for electronics product categories",
+            "Customized product pages to highlight specifications, offers, and delivery options",
+            "Integrated a multi-category navigation system for appliances like ACs, TVs, and fridges",
+            "Ensured Arabic-language support and region-specific UX for Saudi Arabia market",
+            "Enhanced performance and minimized plugin bloat for fast load times"
+        ],
+        role: ["WordPress Developer", "Frontend"]
     },
     {
         id: 13,
@@ -159,7 +264,16 @@ const projectsData = [
         github: null,
         link: "https://shaha.com.sa/",
         tools: ["Laravel, ", "Vuejs, ", "MySQL, ", "JavaScript, ", "HTML, ", "CSS"],
-        images: ["assets/imgs/projects/shaha/1.png"]
+        images: ["assets/imgs/projects/shaha/1.png"],
+        responsibilities: [
+            "Developed a seamless e-commerce platform with Laravel backend and Vue.js frontend integration",
+            "Synchronized website with mobile application to maintain shared cart and real-time updates",
+            "Integrated local payment gateways and shipping APIs tailored for the Saudi market",
+            "Built inventory management logic with real-time stock control and automated notifications",
+            "Ensured system scalability and high availability during promotional campaigns"
+        ],
+        role: ["Backend", "Frontend", "Vue.js Developer"]
+
     },
     {
         id: 14,
@@ -171,7 +285,16 @@ const projectsData = [
         github: null,
         link: "https://koolen.com.sa/",
         tools: ["Laravel, ", "React, ", "MySQL, ", "JavaScript, ", "HTML, ", "CSS"],
-        images: ["assets/imgs/projects/koolen/1.png"]
+        images: ["assets/imgs/projects/koolen/1.png"],
+        responsibilities: [
+            "Engineered a scalable Laravel backend for managing products, orders, and logistics flows",
+            "Integrated React.js to deliver a high-performance, app-like frontend experience",
+            "Implemented secure checkout with payment processing and order tracking systems",
+            "Collaborated with Gulf-based logistics partners to ensure real-time delivery syncing",
+            "Built custom APIs to support both web and mobile app clients"
+        ],
+        role: ["Full-Stack Developer", "Backend", "React Developer"]
+
     },
     {
         id: 15,
@@ -183,7 +306,16 @@ const projectsData = [
         github: null,
         link: "https://cordiana-sys.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/cordiana.png"]
+        images: ["assets/imgs/projects/cordiana.png"],
+        responsibilities: [
+            "Designed modular architecture to handle HR, accounting, sales, and inventory modules",
+            "Implemented dynamic dashboards with real-time analytics and KPI tracking",
+            "Built a role-based access control system to secure sensitive operations across departments",
+            "Automated workflows for common business operations such as payroll and purchase orders",
+            "Handled data integrity, audit logs, and advanced reporting functionalities"
+        ],
+        role: ["Backend", "System Architect", "ERP Developer"]
+
     },
     {
         id: 16,
@@ -195,7 +327,16 @@ const projectsData = [
         github: null,
         link: "https://account.aladdin-eg.com/login",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/aladdin/aladdin-directory.png","assets/imgs/projects/aladdin/2.png"]
+        images: ["assets/imgs/projects/aladdin/aladdin-directory.png","assets/imgs/projects/aladdin/2.png"],
+        responsibilities: [
+            "Built lightweight Laravel-based accounting web app tailored for small business needs",
+            "Created modules for income, expense, invoicing, and tax calculation",
+            "Implemented dynamic charts and visual financial summaries for user-friendly analysis",
+            "Designed simple, clean UI to allow non-technical users to navigate and manage accounts",
+            "Secured user data with authentication and input validation best practices"
+        ],
+        role: ["Backend", "Frontend", "UX Focused Developer"]
+
     },
     {
         id: 17,
@@ -207,7 +348,17 @@ const projectsData = [
         github: null,
         link: "http://octahedron-sols.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/octahedron/octahedron.png","assets/imgs/projects/octahedron/1.png"]
+        images: ["assets/imgs/projects/octahedron/octahedron.png","assets/imgs/projects/octahedron/1.png"],
+        responsibilities: [
+            "Developed a multi-tenant ERP system with isolated data environments for each client",
+            "Implemented core modules including CRM, accounting, project management, and inventory",
+            "Created scalable deployment pipeline for onboarding new clients with minimal config",
+            "Designed admin panel for super-admin and tenant-specific dashboards",
+            "Integrated notification system and task workflows between internal modules"
+        ],
+        role: ["Backend", "Full-Stack", "SaaS Architect"]
+
+
     },
     {
         id: 18,
@@ -219,7 +370,16 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/paper_jewels.png"]
+        images: ["assets/imgs/projects/paper_jewels.png"],
+        responsibilities: [
+            "Built a Laravel-based online store with minimalist UI for handcrafted accessories",
+            "Implemented product variants and wishlist functionality for improved user engagement",
+            "Designed and integrated secure cart + checkout flow with order history",
+            "Created intuitive admin panel for managing inventory, orders, and customer interactions",
+            "Optimized for mobile experience and SEO performance for niche product visibility"
+        ],
+        role: ["Backend", "Frontend", "UI/UX"]
+
     },
     {
         id: 19,
@@ -231,7 +391,16 @@ const projectsData = [
         github: null,
         link: "https://almotqd.shafiqa-directory.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/ALMOTQD/ALMOTQD.png","assets/imgs/projects/ALMOTQD/1.png"]
+        images: ["assets/imgs/projects/ALMOTQD/ALMOTQD.png","assets/imgs/projects/ALMOTQD/1.png"],
+        responsibilities: [
+            "Developed an Arabic-first Laravel e-commerce platform with RTL layout and localization",
+            "Built secure checkout flow with order tracking and dynamic delivery status updates",
+            "Implemented custom admin panel for managing products, categories, and sales reports",
+            "Optimized performance for mobile users and ensured compatibility across major browsers",
+            "Handled image optimization and CDN integration for smooth product image delivery"
+        ],
+        role: ["Backend", "Frontend", "UX"]
+
     },
     {
         id: 20,
@@ -243,7 +412,16 @@ const projectsData = [
         github: null,
         link: "http://kmgcastor.com/",
         tools: ["OpenCart, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/kmg/kmg.png","assets/imgs/projects/kmg/1.png"]
+        images: ["assets/imgs/projects/kmg/kmg.png","assets/imgs/projects/kmg/1.png"],
+        responsibilities: [
+            "Customized OpenCart to fit industrial product types with variable specifications",
+            "Implemented cart logic for bulk orders with tiered pricing and dynamic shipping rules",
+            "Integrated secure payment gateway and automated invoice generation",
+            "Enhanced B2B user experience through simplified reorder flows and product filtering",
+            "Performed OpenCart performance tuning and SEO optimization"
+        ],
+        role: ["OpenCart Developer", "Frontend"]
+
     },
     {
         id: 21,
@@ -255,7 +433,16 @@ const projectsData = [
         github: null,
         link: "https://ragaie.com",
         tools: ["WordPress, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/ragaie.png"]
+        images: ["assets/imgs/projects/ragaie.png"],
+        responsibilities: [
+            "Developed a professional branding website using WordPress tailored for thought leadership",
+            "Designed custom post types to organize articles, media appearances, and IP content",
+            "Optimized for search engines using schema markup and clean metadata architecture",
+            "Enhanced readability and interaction flow with a minimalist and accessible layout",
+            "Implemented a content management system allowing non-tech edits by the client"
+        ],
+        role: ["WordPress Developer", "UI/UX", "SEO"]
+
     },
     {
         id: 22,
@@ -267,7 +454,16 @@ const projectsData = [
         github: null,
         link: "https://new.mar-decor.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/mardecor/mardecor.png","assets/imgs/projects/mardecor/1.png"]
+        images: ["assets/imgs/projects/mardecor/mardecor.png","assets/imgs/projects/mardecor/1.png"],
+        responsibilities: [
+            "Created an elegant Laravel website to present interior design projects and services",
+            "Integrated high-quality image galleries and mood boards for immersive storytelling",
+            "Built service-based navigation to guide B2B visitors through Mar Decor's offerings",
+            "Implemented content sections highlighting project milestones and client testimonials",
+            "Ensured full responsiveness with pixel-perfect design across mobile/tablet/desktop"
+        ],
+        role: ["Backend", "Frontend", "UI/UX Designer"]
+
     },
     {
         id: 23,
@@ -279,7 +475,16 @@ const projectsData = [
         github: null,
         link: "https://corddigital.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/corddigital/1.png"]
+        images: ["assets/imgs/projects/corddigital/1.png"],
+        responsibilities: [
+            "Developed a detailed company profile for a full-service media agency using Laravel",
+            "Implemented service pages with case studies, multimedia showcases, and team bios",
+            "Built dynamic forms for lead generation, tailored to different marketing services",
+            "Optimized site structure and performance for quick access across all devices",
+            "Integrated blog and resource center for content marketing strategy"
+        ],
+        role: ["Full-Stack Developer", "Content Integrator", "UI/UX"]
+
     },
     {
         id: 24,
@@ -291,7 +496,16 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Wordpress, ", "MySQL, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/heritage/1.png"]
+        images: ["assets/imgs/projects/heritage/1.png"],
+        responsibilities: [
+            "Developed a WordPress medical tourism platform targeting international patients",
+            "Created multilingual support for Arabic, English, and French users",
+            "Integrated inquiry forms and contact flows for service bookings and patient communication",
+            "Showcased procedures with high-quality visuals and benefit-focused content",
+            "Implemented SEO structure tailored to medical tourism keywords and regions"
+        ],
+        role: ["WordPress Developer", "Multilingual UX", "SEO"]
+
     },
     {
         id: 25,
@@ -303,7 +517,16 @@ const projectsData = [
         github: null,
         link: "https://corddigital.com/cord-art/public/",
         tools: ["Laravel, ", "MySQL, ", "JavaScript, ", "HTML, ", "CSS"],
-        images: ["assets/imgs/projects/cord-art/1.png"]
+        images: ["assets/imgs/projects/cord-art/1.png"],
+        responsibilities: [
+            "Developed Laravel-based digital services platform for managing art-related service requests",
+            "Built modules for graphic design, video, audio, and UI/UX submissions with custom form logic",
+            "Implemented streamlined service request flow to enhance client onboarding experience",
+            "Designed an elegant, modern UI layout optimized for creative agencies and media brands",
+            "Integrated image and media upload handling with validation and secure storage"
+        ],
+        role: ["Backend", "Frontend", "UX Designer"]
+
     },
     {
         id: 26,
@@ -315,7 +538,16 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png"],
+        responsibilities: [
+            "Created a full-featured Laravel social blogging system with user accounts and roles",
+            "Built post creation, editing, liking, and comment interactions with real-time feedback",
+            "Designed profile management module with image upload, bio updates, and follower tracking",
+            "Implemented content moderation and admin tools for post and user control",
+            "Ensured full responsiveness with dynamic layout adaptations across devices"
+        ],
+        role: ["Full-Stack", "Backend", "UI/UX"]
+
     },
     {
         id: 27,
@@ -327,7 +559,16 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png"],
+        responsibilities: [
+            "Built a branded link shortener with real-time analytics and custom alias features",
+            "Developed click tracking system with IP logging, timestamps, and device info",
+            "Created user dashboard for managing links, editing aliases, and viewing stats",
+            "Implemented secure redirect logic and QR integration for each short link",
+            "Optimized system for fast redirect response and high-availability hosting"
+        ],
+        role: ["Backend", "Full-Stack", "Analytics Logic"]
+
     },
     {
         id: 28,
@@ -339,7 +580,16 @@ const projectsData = [
         github: null,
         link: "https://qrcode.seowolves.net/account/sign-up",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png"],
+        responsibilities: [
+            "Built QR code generator supporting various data types (URLs, Wi-Fi, contacts, SMS, etc.)",
+            "Implemented color customization, logo upload, and style themes for branded QR codes",
+            "Allowed users to download codes in SVG/PNG with high-quality vector output",
+            "Designed intuitive frontend to simplify QR creation for all user levels",
+            "Secured user accounts and link tracking for professional usage"
+        ],
+        role: ["Full-Stack", "Backend", "UX"]
+
     },
     {
         id: 29,
@@ -351,7 +601,16 @@ const projectsData = [
         github: null,
         link: "http://vcard.seowolves.net",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png"],
+        responsibilities: [
+            "Developed digital business card builder with shareable profiles via short link or QR",
+            "Enabled embedding social links, bio, contact info, and media on profile pages",
+            "Built real-time preview and update system for better user experience",
+            "Integrated QR code generation tied to each unique vCard link",
+            "Ensured mobile-first design for smart sharing in networking events and meetings"
+        ],
+        role: ["Full-Stack", "Backend", "UX Designer"]
+
     },
     {
         id: 30,
@@ -363,7 +622,7 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png"],
     },
     {
         id: 31,
@@ -375,7 +634,7 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png"],
     },
     {
         id: 32,
@@ -387,7 +646,7 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png"],
     },
     {
         id: 33,
@@ -399,7 +658,7 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["OpenCart, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png"],
     },
     {
         id: 34,
@@ -411,7 +670,7 @@ const projectsData = [
         github: null,
         link: 'https://enwanelmagd.com/',
         tools: ["Wordpress, ", "MySQL, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png"],
     },
     {
         id: 35,
@@ -423,7 +682,7 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png"],
     },
     {
         id: 36,

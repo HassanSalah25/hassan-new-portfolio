@@ -41,7 +41,7 @@ export default function Work() {
 											</div>
 											<p className="text-300 mb-lg-auto mb-md-4 mb-3">{project.description}</p>
 											{project.responsibilities && (
-												<div className="d-md-flex content flex-column mb-2">
+												<div className="d-md-flex mt-2 content flex-column mb-2">
 													<p className="mb-1 fs-7 text-dark text-uppercase">Responsibilities</p>
 													<ul className="ps-3 mb-0">
 														{project.responsibilities.map((item, idx) => (
