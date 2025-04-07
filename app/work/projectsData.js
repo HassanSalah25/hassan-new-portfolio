@@ -201,7 +201,7 @@ const projectsData = [
         github: null,
         link: "http://kmgcastor.com/",
         tools: ["OpenCart, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/kmg.png"]
+        images: ["assets/imgs/projects/kmg/kmg.png","assets/imgs/projects/kmg/1.png"]
     },
     {
         id: 25,
