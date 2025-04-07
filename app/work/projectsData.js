@@ -132,6 +132,18 @@ const projectsData = [
         images: ["assets/imgs/projects/duke/duke.png","assets/imgs/projects/duke/1.png"]
     },
     {
+        id: 27,
+        title: "SHAHA - E-commerce Platform",
+        category: ["E-commerce"],
+        description: "An e-commerce platform for Koolen, integrated with a mobile application, sharing the same payment gateways and shipment methods.",
+        img: "",
+        date: "31 DEC",
+        github: null,
+        link: "https://shaha.com.sa/",
+        tools: ["Laravel", "Vuejs", "MySQL", "JavaScript", "HTML", "CSS"],
+        images: ["assets/imgs/projects/shaha/1.png"]
+    },
+    {
         id: 11,
         title: "Cordiana - ERP",
         category: ["ERP"],
@@ -382,18 +394,6 @@ const projectsData = [
         link: null,
         tools: ["Django, ", "MySQL, ", "Python, ", "HTML, ", "CSS, ", "JS"],
         images: ["assets/imgs/projects/gohar.png"]
-    },
-    {
-        id: 27,
-        title: "SHAHA - E-commerce Platform",
-        category: ["E-commerce"],
-        description: "An e-commerce platform for Koolen, integrated with a mobile application, sharing the same payment gateways and shipment methods.",
-        img: "",
-        date: "31 DEC",
-        github: null,
-        link: "https://shaha.com.sa/",
-        tools: ["Laravel", "Vuejs", "MySQL", "JavaScript", "HTML", "CSS"],
-        images: ["assets/imgs/projects/shaha/1.png"]
     }
 ];
 
