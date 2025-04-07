@@ -153,7 +153,7 @@ const projectsData = [
         github: null,
         link: "https://account.aladdin-eg.com/login",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/aladdin-directory.png"]
+        images: ["assets/imgs/projects/aladdin/aladdin-directory.png"]
     },
     {
         id: 13,
