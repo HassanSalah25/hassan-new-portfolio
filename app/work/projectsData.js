@@ -165,7 +165,7 @@ const projectsData = [
         github: null,
         link: "http://octahedron-sols.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/octahedron.png"]
+        images: ["assets/imgs/projects/octahedron/octahedron.png","assets/imgs/projects/octahedron/1.png"]
     },
     {
         id: 14,
