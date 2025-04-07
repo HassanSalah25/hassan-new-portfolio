@@ -145,7 +145,7 @@ const projectsData = [
     },
     {
         id: 12,
-        title: "Nota - Accountant",
+        title: "Nota Aladdin - Accountant",
         category: ["Accounting"],
         description: "A lightweight financial tracking and invoicing app for freelancers and small business owners. Includes automated tax calculations and income reports.",
         img: "",
@@ -153,7 +153,7 @@ const projectsData = [
         github: null,
         link: "https://account.aladdin-eg.com/login",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/aladdin/aladdin-directory.png"]
+        images: ["assets/imgs/projects/aladdin/aladdin-directory.png","assets/imgs/projects/aladdin/2.png"]
     },
     {
         id: 13,
