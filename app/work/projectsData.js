@@ -129,7 +129,7 @@ const projectsData = [
         github: null,
         link: "http://dukeksa.com/",
         tools: ["WordPress, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/duke.png"]
+        images: ["assets/imgs/projects/duke/duke.png","assets/imgs/projects/duke/1.png"]
     },
     {
         id: 11,
