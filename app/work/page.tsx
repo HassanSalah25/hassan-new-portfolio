@@ -34,11 +34,28 @@ export default function Work() {
 													<p className="text-primary-1 mb-0 mb-md-2">{project.category}</p>
 													<h3 className="fw-semibold">{project.title}</h3>
 												</Link>
-												<Link href={project.link || "#"} className="card-icon d-none d-md-inline-flex border text-dark border-dark icon-shape ms-auto icon-md rounded-circle">
-													<i className="ri-arrow-right-up-line" />
+												<Link href={project.link || "#"}
+													  className="card-icon d-none d-md-inline-flex border text-dark border-dark icon-shape ms-auto icon-md rounded-circle">
+													<i className="ri-arrow-right-up-line"/>
 												</Link>
 											</div>
 											<p className="text-300 mb-lg-auto mb-md-4 mb-3">{project.description}</p>
+											{project.responsibilities && (
+												<div className="d-md-flex content flex-column mb-2">
+													<p className="mb-1 fs-7 text-dark text-uppercase">Responsibilities</p>
+													<ul className="ps-3 mb-0">
+														{project.responsibilities.map((item, idx) => (
+															<li key={idx} className="text-300 fs-6">{item}</li>
+														))}
+													</ul>
+												</div>
+											)}
+											<div className="d-md-flex content">
+												<p className="mb-0 fs-7 text-dark text-uppercase w-40">Our Role</p>
+												{project.role && (
+													<p className="mb-0 card__description text-300 fs-6">{project.role}</p>
+												)}
+											</div>
 											<div className="d-md-flex content">
 												<p className="mb-0 fs-7 text-dark text-uppercase w-40">Date</p>
 												<p className="mb-0 card__description text-300 fs-6">{project.date}</p>

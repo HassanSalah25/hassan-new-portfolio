@@ -9,7 +9,14 @@ const projectsData = [
         github: "https://github.com/HassanSalah25/aladdin-ref",
         link: "https://aladdin-eg.com/",
         tools: ["Laravel, ", "MySQL, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/aladdin/aladdin-directory.png", "assets/imgs/projects/aladdin/1.png"]
+        images: ["assets/imgs/projects/aladdin/aladdin-directory.png", "assets/imgs/projects/aladdin/1.png"],
+        responsibilities: [
+            "Developed core backend APIs",
+            "Contributed to frontend UI/UX",
+            "Integrated business logic with external services"
+        ],
+        role: ["Backend", "Frontend"]
+
     },
     {
         id: 2,
