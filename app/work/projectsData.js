@@ -264,6 +264,18 @@ const projectsData = [
         images: ["assets/imgs/projects/corddigital/1.png"]
     },
     {
+        id: 26,
+        title: "Heritage - Medical Tourism Website",
+        category: ["Service"],
+        description: "A WordPress-based medical tourism platform designed to attract international patients to Egypt. The website showcases a range of high-quality services including fertility treatments, dental care, and cosmetic procedures. It features multilingual support, service details, contact forms, and patient inquiry flows tailored for global outreach.",
+        img: "",
+        date: "15 MAR",
+        github: null,
+        link: null,
+        tools: ["Wordpress, ", "MySQL, ", "HTML, ", "CSS, ", "JS"],
+        images: ["assets/imgs/projects/heritage/1.png"]
+    },
+    {
         id: 29,
         title: "Cord Art - Digital Art Platform",
         category: ["Digital Art"],
@@ -370,18 +382,6 @@ const projectsData = [
         link: null,
         tools: ["OpenCart, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
         images: ["assets/imgs/projects/gohar.png"]
-    },
-    {
-        id: 26,
-        title: "Heritage - Medical Tourism Website",
-        category: ["Service"],
-        description: "A WordPress-based medical tourism platform designed to attract international patients to Egypt. The website showcases a range of high-quality services including fertility treatments, dental care, and cosmetic procedures. It features multilingual support, service details, contact forms, and patient inquiry flows tailored for global outreach.",
-        img: "",
-        date: "15 MAR",
-        github: null,
-        link: null,
-        tools: ["Wordpress, ", "MySQL, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/heritage/1.png"]
     },
     {
         id: 26,
