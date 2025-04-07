@@ -237,7 +237,7 @@ const projectsData = [
         github: null,
         link: "https://corddigital.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png","assets/imgs/projects/corddigital/1.png"]
     },
     {
         id: 6,
