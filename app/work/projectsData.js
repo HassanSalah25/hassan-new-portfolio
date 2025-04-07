@@ -24,7 +24,7 @@ const projectsData = [
         images: ["assets/imgs/projects/neo/neo.png","assets/imgs/projects/neo/1.png"]
     },
     {
-        id: 2,
+        id: 3,
         title: "Shoaa - Healthcare",
         category: ["Healthcare Center"],
         description: "Shoaa is a healthcare center website developed using WordPress, providing an efficient and user-friendly platform for patients to register appointments for various healthcare services with doctors. The website integrates customized WordPress features to streamline the appointment booking process while maintaining a clean and responsive design for optimal user experience on all devices.",
@@ -36,7 +36,7 @@ const projectsData = [
         images: ["assets/imgs/projects/shoaa/shoaa.png","assets/imgs/projects/shoaa/1.png"]
     },
     {
-        id: 3,
+        id: 4,
         title: "Cotton House Kidswear - E-Commerce",
         category: ["E-commerce"],
         description: "CottonHouseKidsWear is an e-commerce website that sells custom clothing for all ages and genders. The platform is designed to offer an easy-to-use shopping experience, allowing customers to browse various categories of clothes, view product details, and purchase customized clothing items. Customers can select sizes, colors, and styles based on their preferences. The website is built using Laravel PHP, MySQL, and other modern web technologies to ensure high performance, security, and scalability. The front-end is clean and user-friendly, with responsive design ensuring that the site functions well on both mobile and desktop devices.",
@@ -48,7 +48,7 @@ const projectsData = [
         images: ["assets/imgs/projects/ct/ct.png","assets/imgs/projects/ct/1.png"]
     },
     {
-        id: 4,
+        id: 5,
         title: "Grand Gate - Company Profile",
         category: ["Company, ", "Profile"],
         description: "Grand Gate is a portfolio website designed to showcase and sell premium gates for large buildings, including commercial, industrial, and residential spaces. Built using Laravel PHP, MySQL, and native HTML/CSS/JS, the platform provides a clean, professional presentation for high-quality gate designs. Customers can browse through categories, view detailed product information, and explore project galleries to find the perfect solution for their building needs. The website is fully responsive, ensuring optimal performance on all devices.",
@@ -60,7 +60,7 @@ const projectsData = [
         images: ["assets/imgs/projects/grand-gate/grand-gate.png","assets/imgs/projects/grand-gate/1.png"]
     },
     {
-        id: 7,
+        id: 6,
         title: "Web Scraper - Scraper",
         category: ["Scraper", "Python"],
         description: "The Web Scraping project was built using Python and its powerful libraries, such as **BeautifulSoup**, **Scrapy**, and **Requests**, to extract structured data from popular websites like **Alibaba** and **YellowPages**. The project automates the process of collecting valuable information such as product listings, business details, and contact information for further analysis and business use.",
@@ -70,6 +70,29 @@ const projectsData = [
         link: null,
         tools: ["Python, ", "BeautifulSoup, ", "Scrapy, ", "Requests, ", "MySQL"],
         images: ["assets/imgs/projects/webscrapping.png"]
+    },{
+        id: 7,
+        title: "Passion Clinics - Healthcare Center",
+        category: ["Healthcare Center"],
+        description: "Passion Clinics is a premier cosmetic surgery center located in Riyadh, Saudi Arabia, offering a comprehensive range of surgical and non-surgical aesthetic procedures. Established in 2022, the clinic specializes in facial cosmetic surgeries, rhinoplasty, gynecomastia treatment, eyelid surgeries, laser skin treatments, injectable aesthetics, scar treatment, non-surgical body contouring, liposuction, breast augmentation, and body lifting procedures. With over 18 years of experience, Passion Clinics utilizes the latest technologies to provide exceptional care and results to clients across the Middle East.",
+        img: "",
+        date: "22 MAY",
+        github: "",
+        link: "https://passionclinics.com/",
+        tools: ["WordPress", "MySQL", "PHP", "HTML", "CSS", "JS"],
+        images: ["assets/imgs/projects/passion/1.png"]
+    },
+    {
+        id: 8,
+        title: "Masterchef - E-Commerce",
+        category: ["E-commerce"],
+        description: "An interactive e-commerce platform for high-end culinary tools and kitchen essentials. Developed using Laravel and Vue.js, the platform offers dynamic product filtering, smart recommendations, wishlist functionality, and a responsive UI for smooth mobile and desktop experiences. Designed to enhance user engagement and drive conversions.",
+        img: "",
+        date: "16 JAN",
+        github: null,
+        link: null,
+        tools: ["Laravel, ", "Vue.JS, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
+        images: ["assets/imgs/projects/masterchef/masterchef.png","assets/imgs/projects/masterchef/1.png"]
     },
     {
         id: 9,
@@ -84,7 +107,7 @@ const projectsData = [
         images: ["assets/imgs/projects/modevia/modevia.png","assets/imgs/projects/modevia/1.png"]
     },
     {
-        id: 3,
+        id: 10,
         title: "AT Store - E-Commerce",
         category: ["E-commerce"],
         description: "A modern e-commerce platform designed for fashion and accessories. Features include a dynamic admin dashboard, discount and coupon system, order management, product customization options, and a sleek storefront optimized for performance and mobile responsiveness.",
@@ -96,19 +119,7 @@ const projectsData = [
         images: ["assets/imgs/projects/atstore.png"]
     },
     {
-        id: 3,
-        title: "Masterchef - E-Commerce",
-        category: ["E-commerce"],
-        description: "An interactive e-commerce platform for high-end culinary tools and kitchen essentials. Developed using Laravel and Vue.js, the platform offers dynamic product filtering, smart recommendations, wishlist functionality, and a responsive UI for smooth mobile and desktop experiences. Designed to enhance user engagement and drive conversions.",
-        img: "",
-        date: "16 JAN",
-        github: null,
-        link: null,
-        tools: ["Laravel, ", "Vue.JS, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/masterchef/masterchef.png","assets/imgs/projects/masterchef/1.png"]
-    },
-    {
-        id: 8,
+        id: 11,
         title: "Ionology - Company Profile",
         category: ["Company, ", "Profile"],
         description: "A futuristic company profile website developed for Ionology, a leader in digital transformation solutions. The site features dynamic scroll animations, comprehensive sections detailing services such as digital transformation, innovation, and geospatial intelligence, as well as team introductions and client testimonials. Fully optimized for search engines to enhance online visibility.",
@@ -120,7 +131,7 @@ const projectsData = [
         images: ["assets/imgs/projects/ionology.png"]
     },
     {
-        id: 10,
+        id: 12,
         title: "DUKE - E-Commerce",
         category: ["E-commerce"],
         description: "An online store specializing in electrical appliances in Saudi Arabia, offering products like refrigerators, freezers, screens, and air conditioners.",
@@ -132,7 +143,7 @@ const projectsData = [
         images: ["assets/imgs/projects/duke/duke.png","assets/imgs/projects/duke/1.png"]
     },
     {
-        id: 27,
+        id: 13,
         title: "SHAHA - E-commerce Platform",
         category: ["E-commerce"],
         description: "An advanced e-commerce platform for Koolen brand, offering a seamless online shopping experience. The system is tightly integrated with a mobile application and includes synchronized payment gateways, shipping options, and inventory management tailored for the Saudi market.",
@@ -144,7 +155,7 @@ const projectsData = [
         images: ["assets/imgs/projects/shaha/1.png"]
     },
     {
-        id: 28,
+        id: 14,
         title: "Koolen - E-commerce Platform",
         category: ["E-commerce"],
         description: "A scalable e-commerce system for Koolen under Al-Muhaidib First Mission. Built with Laravel and React, the platform features product catalogs, order tracking, mobile integration, secure payment processing, and logistics coordination across the Gulf region.",
@@ -156,7 +167,7 @@ const projectsData = [
         images: ["assets/imgs/projects/koolen/1.png"]
     },
     {
-        id: 11,
+        id: 15,
         title: "Cordiana - ERP",
         category: ["ERP"],
         description: "A fully integrated ERP system designed to manage HR, inventory, sales, and accounting operations. Built with Laravel, the platform features real-time analytics dashboards, role-based access control, automated workflows, and department-level management. Ideal for mid to large-sized enterprises seeking operational efficiency.",
@@ -168,7 +179,7 @@ const projectsData = [
         images: ["assets/imgs/projects/cordiana.png"]
     },
     {
-        id: 12,
+        id: 16,
         title: "Nota Aladdin - Accountant",
         category: ["Accounting"],
         description: "A lightweight accounting and invoicing web app tailored for freelancers and small business owners. The platform supports income tracking, expense management, invoice generation, and automated tax calculations with visual income reports and financial summaries.",
@@ -180,7 +191,7 @@ const projectsData = [
         images: ["assets/imgs/projects/aladdin/aladdin-directory.png","assets/imgs/projects/aladdin/2.png"]
     },
     {
-        id: 13,
+        id: 17,
         title: "Octahedron - ERP",
         category: ["ERP"],
         description: "A modular ERP system built for small and medium enterprises. It includes core modules like CRM, project management, accounting, inventory, and warehouse control. Built with a multi-tenant architecture, it enables scalable deployment for multiple clients with isolated data and access control.",
@@ -192,7 +203,7 @@ const projectsData = [
         images: ["assets/imgs/projects/octahedron/octahedron.png","assets/imgs/projects/octahedron/1.png"]
     },
     {
-        id: 14,
+        id: 18,
         title: "Paper Jewels - E-Commerce",
         category: ["E-commerce"],
         description: "An elegant Laravel-powered online store for handcrafted paper accessories. The platform features product variations, user wishlists, smooth checkout, and an intuitive admin dashboard. Designed with a clean, minimalist aesthetic and optimized for both desktop and mobile experiences.",
@@ -204,7 +215,7 @@ const projectsData = [
         images: ["assets/imgs/projects/paper_jewels.png"]
     },
     {
-        id: 21,
+        id: 19,
         title: "Al Motqd - E-Commerce",
         category: ["E-commerce"],
         description: "A Laravel-based e-commerce platform developed for Al Motqd. It includes product management, secure checkout, order tracking, and an admin panel for full control over inventory and sales. Built to support Arabic localization and optimized for user experience across all devices.",
@@ -216,7 +227,7 @@ const projectsData = [
         images: ["assets/imgs/projects/ALMOTQD/ALMOTQD.png","assets/imgs/projects/ALMOTQD/1.png"]
     },
     {
-        id: 22,
+        id: 20,
         title: "KMG Castor - E-commerce",
         category: ["E-commerce"],
         description: "An OpenCart-powered e-commerce website for KMG Castor, a supplier of industrial wheels and casters. The platform features advanced cart customization, flexible shipping rules, and seamless payment gateway integration. Designed to meet the needs of B2B and industrial clients with performance and reliability in mind.",
@@ -228,7 +239,7 @@ const projectsData = [
         images: ["assets/imgs/projects/kmg/kmg.png","assets/imgs/projects/kmg/1.png"]
     },
     {
-        id: 25,
+        id: 21,
         title: "Ragaie - Company Profile",
         category: ["Company, ", "Profile"],
         description: "A professional personal branding website for Ahmed Ragaie, an entrepreneur and strategic marketer. The platform showcases his thoughts, articles, media appearances, and intellectual property, reflecting his expertise in global business and management consulting. Designed with a clean layout and optimized for user engagement and SEO.",
@@ -240,7 +251,7 @@ const projectsData = [
         images: ["assets/imgs/projects/ragaie.png"]
     },
     {
-        id: 29,
+        id: 22,
         title: "Mar Decor - Company Profile",
         category: ["Company, ", "Profile"],
         description: "A sophisticated company profile website for Mar Decor, a premier interior design and finishing company in Egypt. The platform highlights their extensive portfolio, detailing services in decoration, finishes, and gypsum work. Emphasis is placed on visual storytelling through high-quality galleries and mood boards, showcasing their commitment to creativity and elegance. The site is designed to appeal to B2B clients, reflecting Mar Decor's 20+ years of industry experience and over 1,000 completed projects.",
@@ -252,7 +263,7 @@ const projectsData = [
         images: ["assets/imgs/projects/mardecor/mardecor.png","assets/imgs/projects/mardecor/1.png"]
     },
     {
-        id: 28,
+        id: 23,
         title: "Corddigital - Company Profile",
         category: ["Company, ", "Profile"],
         description: "A comprehensive company profile website for Cord Digital, a leading advertising and e-marketing agency in Egypt. The platform showcases their extensive range of services, including digital marketing, web and app solutions, graphics and photography, video and multimedia production, music production, and business planning. It features detailed case studies, service breakdowns, and effective lead capture tools. Designed with a modern layout and optimized for fast performance to enhance user experience.",
@@ -264,7 +275,7 @@ const projectsData = [
         images: ["assets/imgs/projects/corddigital/1.png"]
     },
     {
-        id: 26,
+        id: 24,
         title: "Heritage - Medical Tourism Website",
         category: ["Service"],
         description: "A WordPress-based medical tourism platform designed to attract international patients to Egypt. The website showcases a range of high-quality services including fertility treatments, dental care, and cosmetic procedures. It features multilingual support, service details, contact forms, and patient inquiry flows tailored for global outreach.",
@@ -276,7 +287,7 @@ const projectsData = [
         images: ["assets/imgs/projects/heritage/1.png"]
     },
     {
-        id: 29,
+        id: 25,
         title: "Cord Art - Digital Art Platform",
         category: ["Digital Art"],
         description: "Cord Art is a specialized digital services platform by Cord Digital, dedicated to delivering high-quality visual and creative content. It offers services in graphic design, photography, video editing, audio production, and UI/UX design. The platform is designed for businesses seeking impactful branding and engaging multimedia content, with a sleek interface and streamlined service request process.",
@@ -288,7 +299,7 @@ const projectsData = [
         images: ["assets/imgs/projects/cord-art/1.png"]
     },
     {
-        id: 6,
+        id: 26,
         title: "Social Media Web App - Blogging",
         category: ["Blogging, ", "Social"],
         description: "A full-featured social media and blogging platform developed using Laravel. It allows users to create accounts, publish blog posts, interact through comments and likes, and follow other users. The system includes profile management, content moderation, and a responsive UI to ensure a seamless user experience across devices.",
@@ -300,7 +311,7 @@ const projectsData = [
         images: ["assets/imgs/projects/gohar.png"]
     },
     {
-        id: 15,
+        id: 27,
         title: "Short URL Verse - Service",
         category: ["Service"],
         description: "A branded short link generator built with Laravel, designed for businesses and content creators. It offers real-time analytics, click tracking, and custom aliases for professional-looking links. Ideal for marketing campaigns, social sharing, and improving engagement through clean and trackable URLs.",
@@ -312,7 +323,7 @@ const projectsData = [
         images: ["assets/imgs/projects/gohar.png"]
     },
     {
-        id: 16,
+        id: 28,
         title: "QR Code Verse - Service",
         category: ["Service"],
         description: "A dynamic QR code generation service built with Laravel. It supports various QR types including URLs, business cards, Wi-Fi access, SMS, and more. Users can customize colors, add logos, and download codes in SVG or PNG formats. Designed for businesses seeking branded, trackable, and high-quality QR solutions.",
@@ -324,7 +335,7 @@ const projectsData = [
         images: ["assets/imgs/projects/gohar.png"]
     },
     {
-        id: 17,
+        id: 29,
         title: "V Card Verse - Service",
         category: ["Service"],
         description: "A digital business card builder that allows users to create personalized profiles with contact info, social links, and embedded media. Instantly shareable via QR code or short link, making networking smarter and more efficient for professionals and teams.",
@@ -336,7 +347,7 @@ const projectsData = [
         images: ["assets/imgs/projects/gohar.png"]
     },
     {
-        id: 18,
+        id: 30,
         title: "Page Builder - Service",
         category: ["Service"],
         description: "A drag-and-drop landing page builder built with Laravel. Users can create fully customized pages using reusable content blocks, with live preview, mobile responsiveness, and a modern, intuitive editing interface. Ideal for marketers, product launches, and one-page websites.",
@@ -348,7 +359,7 @@ const projectsData = [
         images: ["assets/imgs/projects/gohar.png"]
     },
     {
-        id: 19,
+        id: 31,
         title: "News Blogging - Blogging",
         category: ["Blogging"],
         description: "A dynamic news blogging platform developed with Laravel, designed for publishing articles, managing categories and tags, and supporting multimedia content. Features include an admin panel for content management, user comments, and SEO-friendly structure—ideal for digital magazines, newsrooms, and niche blogs.",
@@ -360,7 +371,7 @@ const projectsData = [
         images: ["assets/imgs/projects/gohar.png"]
     },
     {
-        id: 20,
+        id: 32,
         title: "Salon Beauty - Service",
         category: ["Service"],
         description: "A customized appointment booking platform for salons and spas. Users can browse available services, view pricing, schedule appointments, and receive real-time SMS confirmations. Admins can manage staff schedules, service categories, and track bookings from a clean backend panel.",
@@ -372,7 +383,7 @@ const projectsData = [
         images: ["assets/imgs/projects/gohar.png"]
     },
     {
-        id: 23,
+        id: 33,
         title: "German.C - Company Profile",
         category: ["Company, ", "Profile"],
         description: "A corporate profile website developed using OpenCart, showcasing the company’s services, products, and achievements. The platform includes dynamic content sections, contact forms, and a clean layout optimized for both desktop and mobile users—ideal for businesses seeking a solid online presence.",
@@ -384,7 +395,7 @@ const projectsData = [
         images: ["assets/imgs/projects/gohar.png"]
     },
     {
-        id: 26,
+        id: 34,
         title: "Recruitment Office – عنوان المجد للاستقدام",
         category: ["Service"],
         description: "A recruitment office website built with WordPress, tailored for connecting clients with qualified domestic workers. The platform includes service listings, smart request forms, regional filters by nationality and profession, and a responsive design to support users across devices.",
@@ -396,7 +407,7 @@ const projectsData = [
         images: ["assets/imgs/projects/gohar.png"]
     },
     {
-        id: 24,
+        id: 35,
         title: "E-Commerce Builder - E-Commerce",
         category: ["E-commerce"],
         description: "A Laravel-based platform that enables users to create and launch their own e-commerce websites. Features include product management, order tracking, customizable storefronts, secure payment integration, and responsive design—ideal for entrepreneurs and small businesses.",
@@ -408,7 +419,7 @@ const projectsData = [
         images: ["assets/imgs/projects/gohar.png"]
     },
     {
-        id: 26,
+        id: 36,
         title: "Moneyfellow - Service",
         category: ["Service"],
         description: "A Django-powered financial service platform that facilitates group savings and digital money circles. The system allows users to create saving groups, schedule payments, and manage contributions with full transparency and real-time updates.",
