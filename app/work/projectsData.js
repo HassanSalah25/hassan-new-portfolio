@@ -211,7 +211,7 @@ const projectsData = [
         img: "",
         date: "29 DEC",
         github: null,
-        link: "http://ragaie.com",
+        link: "https://ragaie.com",
         tools: ["WordPress, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
         images: ["assets/imgs/projects/ragaie.png"]
     },
@@ -223,7 +223,7 @@ const projectsData = [
         img: "",
         date: "05 JAN",
         github: null,
-        link: "http://new.mar-decor.com/",
+        link: "https://new.mar-decor.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
         images: ["assets/imgs/projects/mardecor/mardecor.png","assets/imgs/projects/mardecor/1.png"]
     },
@@ -355,7 +355,7 @@ const projectsData = [
         img: "",
         date: "28 FEB",
         github: null,
-        link: null,
+        link: 'https://enwanelmagd.com/',
         tools: ["Wordpress, ", "MySQL, ", "HTML, ", "CSS, ", "JS"],
         images: ["assets/imgs/projects/gohar.png"]
     },
