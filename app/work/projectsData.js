@@ -345,7 +345,7 @@ const projectsData = [
         github: null,
         link: null,
         tools: ["Wordpress, ", "MySQL, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/gohar.png"]
+        images: ["assets/imgs/projects/gohar.png","assets/imgs/projects/heritage/1.png"]
     },
     {
         id: 26,
