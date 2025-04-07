@@ -264,6 +264,18 @@ const projectsData = [
         images: ["assets/imgs/projects/corddigital/1.png"]
     },
     {
+        id: 29,
+        title: "Cord Art - Digital Art Platform",
+        category: ["Digital Art"],
+        description: "A platform by Cord Digital offering services in graphics, video, photography, audio, and UI/UX design.",
+        img: "",
+        date: "31 DEC",
+        github: null,
+        link: "https://corddigital.com/cord-art/public/",
+        tools: ["Laravel, ", "MySQL, ", "JavaScript, ", "HTML, ", "CSS"],
+        images: ["assets/imgs/projects/cord-art/1.png"]
+    },
+    {
         id: 6,
         title: "Social Media Web App - Blogging",
         category: ["Blogging, ", "Social"],
