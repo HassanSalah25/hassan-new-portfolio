@@ -25,7 +25,7 @@ export default function ProjectCarousel({ project }: any) {
                     src={project.images[selectedImageIndex]}
                     alt={project.title}
                     style={{
-                        width: "900px",
+                        width: "100%",
                         height: "500px",
                         borderRadius: "12px",
                         transition: "opacity 0.6s ease-in-out",
