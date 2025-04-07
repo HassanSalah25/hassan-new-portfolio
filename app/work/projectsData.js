@@ -140,8 +140,20 @@ const projectsData = [
         date: "31 DEC",
         github: null,
         link: "https://shaha.com.sa/",
-        tools: ["Laravel", "Vuejs", "MySQL", "JavaScript", "HTML", "CSS"],
+        tools: ["Laravel, ", "Vuejs, ", "MySQL, ", "JavaScript, ", "HTML, ", "CSS"],
         images: ["assets/imgs/projects/shaha/1.png"]
+    },
+    {
+        id: 28,
+        title: "Koolen - E-commerce Platform",
+        category: ["E-commerce"],
+        description: "An e-commerce platform for Koolen, integrated with a mobile application, sharing the same payment gateways and shipment methods.",
+        img: "",
+        date: "31 DEC",
+        github: null,
+        link: "https://koolen.com.sa/",
+        tools: ["Laravel, ", "React, ", "MySQL, ", "JavaScript, ", "HTML, ", "CSS"],
+        images: ["assets/imgs/projects/koolen/1.png"]
     },
     {
         id: 11,
