@@ -225,7 +225,7 @@ const projectsData = [
         github: null,
         link: "http://new.mar-decor.com/",
         tools: ["Laravel, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
-        images: ["assets/imgs/projects/mardecor.png"]
+        images: ["assets/imgs/projects/mardecor/mardecor.png","assets/imgs/projects/mardecor/1.png"]
     },
     {
         id: 28,
