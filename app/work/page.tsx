@@ -109,7 +109,7 @@ export default function Work() {
                                             <>
                                                 <h6>Responsibilities</h6>
                                                 <ul>
-                                                    {selectedProject.responsibilities.map((r, idx) => (
+                                                    {selectedProject.responsibilities.map((r: string, idx: number) => (
                                                         <li key={idx}>{r}</li>
                                                     ))}
                                                 </ul>
