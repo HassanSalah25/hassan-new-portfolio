@@ -6,7 +6,7 @@ import ProjectCarousel from "@/components/ProjectCarousel";
 import {useState} from "react";
 
 export default function Work() {
-    const [selectedProject, setSelectedProject] = useState(null);
+    const [selectedProject, setSelectedProject] = useState<null>(null);
 
     return (
         <Layout headerStyle={1} footerStyle={1}>
