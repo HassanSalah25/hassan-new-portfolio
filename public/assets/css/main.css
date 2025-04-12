@@ -14378,7 +14378,6 @@ strong {
 
 .modal-content {
   background-color: var(--tc-bg-dark-2) !important;
-  color: var(--modal-text, #000) !important;
   border-radius: 12px !important;
   max-width: 800px !important;
   width: 100% !important;
