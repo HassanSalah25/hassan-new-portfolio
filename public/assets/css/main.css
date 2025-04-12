@@ -14406,21 +14406,6 @@ body.dark .modal-content {
   color: inherit;
 }
 
-.modal-title {
-  color: var(--primary-color, #007bff);
-  margin-bottom: 1rem;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 /*# sourceMappingURL=main.css.map */
 
