@@ -22,7 +22,7 @@ const projectsData = [
             "Conducted extensive testing and debugging across multiple devices to ensure responsiveness and performance.",
             "Deployed project to production using shared hosting with GitHub integration and CI/CD via Git Hooks."
         ],
-        role: ["Backend", "Frontend"]
+        role: ["Backend, ", "Frontend"]
 
     },
     {
@@ -44,7 +44,7 @@ const projectsData = [
             "Implemented admin dashboard to manage doctors, services, and appointment history",
             "Optimized database queries for performance and scalability using Eloquent ORM"
         ],
-        role: ["Backend", "Frontend"],
+        role: ["Backend, ", "Frontend"],
     },
     {
         id: 3,
@@ -65,7 +65,7 @@ const projectsData = [
             "Implemented admin dashboard to manage doctors, services, and appointment history",
             "Optimized database queries for performance and scalability using Eloquent ORM"
         ],
-        role: ["Backend", "Frontend"],
+        role: ["Backend, ", "Frontend"],
     },
     {
         id: 4,
@@ -86,7 +86,7 @@ const projectsData = [
             "Implemented admin panel for inventory tracking, order processing, and user management",
             "Ensured full mobile compatibility and optimized load times across devices"
         ],
-        role: ["Backend", "Frontend", "UI/UX"]
+        role: ["Backend, ", "Frontend, ", "UI/UX"]
 
     },
     {
@@ -107,12 +107,12 @@ const projectsData = [
             "Created admin interface for uploading products, editing info, and managing sections",
             "Handled SEO optimization including metadata structure and clean URL routing"
         ],
-        role: ["Backend", "Frontend"]
+        role: ["Backend, ", "Frontend"]
     },
     {
         id: 6,
         title: "Web Scraper - Scraper",
-        category: ["Scraper", "Python"],
+        category: ["Scraper, ", "Python"],
         description: "The Web Scraping project was built using Python and its powerful libraries, such as **BeautifulSoup**, **Scrapy**, and **Requests**, to extract structured data from popular websites like **Alibaba** and **YellowPages**. The project automates the process of collecting valuable information such as product listings, business details, and contact information for further analysis and business use.",
         img: "",
         date: "08 MAY",
@@ -127,7 +127,7 @@ const projectsData = [
             "Scheduled recurring scraping jobs and created logs for error handling and success tracking",
             "Wrote modular scripts to allow quick adaptation to new websites and data structures"
         ],
-        role: ["Python Developer", "Data Engineer"]
+        role: ["Python Developer, ", "Data Engineer"]
     },
     {
         id: 7,
@@ -138,7 +138,7 @@ const projectsData = [
         date: "22 MAY",
         github: "",
         link: "https://passionclinics.com/",
-        tools: ["WordPress", "MySQL", "PHP", "HTML", "CSS", "JS"],
+        tools: ["WordPress, ", "MySQL, ", "PHP, ", "HTML, ", "CSS, ", "JS"],
         images: ["assets/imgs/projects/passion/1.png"],
         responsibilities: [
             "Developed a fully responsive WordPress website tailored to medical and cosmetic procedures",
@@ -147,7 +147,7 @@ const projectsData = [
             "Ensured compliance with data protection regulations for sensitive patient inquiries",
             "Optimized performance and page speed for mobile-first experience in Gulf region"
         ],
-        role: ["WordPress Developer", "Frontend", "UI/UX"]
+        role: ["WordPress Developer, ", "Frontend, ", "UI/UX"]
 
     },
     {
@@ -168,7 +168,7 @@ const projectsData = [
             "Developed a real-time dashboard for admin to manage products, inventory, and orders",
             "Focused on user behavior tracking for enhancing future marketing and personalization"
         ],
-        role: ["Full-Stack Developer", "Vue.js Developer", "Laravel Dev"]
+        role: ["Full-Stack Developer, ", "Vue.js Developer, ", "Laravel Dev"]
 
     },
     {
@@ -189,7 +189,7 @@ const projectsData = [
             "Enabled dynamic doctor availability, with filters based on specialty and location",
             "Collaborated with the medical team to align features with real operational flow"
         ],
-        role: ["Backend", "Frontend", "React Developer"]
+        role: ["Backend, ", "Frontend, ", "React Developer"]
 
     },
     {
@@ -210,7 +210,7 @@ const projectsData = [
             "Handled full order flow including cart, checkout, payment integration, and confirmation",
             "Added product customization options including variants like size, color, and quantity"
         ],
-        role: ["Full-Stack Developer", "Backend", "Frontend"]
+        role: ["Full-Stack Developer, ", "Backend, ", "Frontend"]
 
     },
     {
@@ -231,7 +231,7 @@ const projectsData = [
             "Optimized metadata and page structure for advanced SEO and Google indexing",
             "Ensured accessibility and performance across browsers and mobile devices"
         ],
-        role: ["Frontend", "Backend", "UI/UX"]
+        role: ["Frontend, ", "Backend, ", "UI/UX"]
 
     },
     {
@@ -252,7 +252,7 @@ const projectsData = [
             "Ensured Arabic-language support and region-specific UX for Saudi Arabia market",
             "Enhanced performance and minimized plugin bloat for fast load times"
         ],
-        role: ["WordPress Developer", "Frontend"]
+        role: ["WordPress Developer, ", "Frontend"]
     },
     {
         id: 13,
@@ -272,7 +272,7 @@ const projectsData = [
             "Built inventory management logic with real-time stock control and automated notifications",
             "Ensured system scalability and high availability during promotional campaigns"
         ],
-        role: ["Backend", "Frontend", "Vue.js Developer"]
+        role: ["Backend, ", "Frontend, ", "Vue.js Developer"]
 
     },
     {
@@ -293,7 +293,7 @@ const projectsData = [
             "Collaborated with Gulf-based logistics partners to ensure real-time delivery syncing",
             "Built custom APIs to support both web and mobile app clients"
         ],
-        role: ["Full-Stack Developer", "Backend", "React Developer"]
+        role: ["Full-Stack Developer, ", "Backend, ", "React Developer"]
 
     },
     {
@@ -314,7 +314,7 @@ const projectsData = [
             "Automated workflows for common business operations such as payroll and purchase orders",
             "Handled data integrity, audit logs, and advanced reporting functionalities"
         ],
-        role: ["Backend", "System Architect", "ERP Developer"]
+        role: ["Backend, ", "System Architect, ", "ERP Developer"]
 
     },
     {
@@ -335,7 +335,7 @@ const projectsData = [
             "Designed simple, clean UI to allow non-technical users to navigate and manage accounts",
             "Secured user data with authentication and input validation best practices"
         ],
-        role: ["Backend", "Frontend", "UX Focused Developer"]
+        role: ["Backend, ", "Frontend, ", "UX Focused Developer"]
 
     },
     {
@@ -356,7 +356,7 @@ const projectsData = [
             "Designed admin panel for super-admin and tenant-specific dashboards",
             "Integrated notification system and task workflows between internal modules"
         ],
-        role: ["Backend", "Full-Stack", "SaaS Architect"]
+        role: ["Backend, ", "Full-Stack, ", "SaaS Architect"]
 
 
     },
@@ -378,7 +378,7 @@ const projectsData = [
             "Created intuitive admin panel for managing inventory, orders, and customer interactions",
             "Optimized for mobile experience and SEO performance for niche product visibility"
         ],
-        role: ["Backend", "Frontend", "UI/UX"]
+        role: ["Backend, ", "Frontend, ", "UI/UX"]
 
     },
     {
@@ -399,7 +399,7 @@ const projectsData = [
             "Optimized performance for mobile users and ensured compatibility across major browsers",
             "Handled image optimization and CDN integration for smooth product image delivery"
         ],
-        role: ["Backend", "Frontend", "UX"]
+        role: ["Backend, ", "Frontend, ", "UX"]
 
     },
     {
@@ -420,7 +420,7 @@ const projectsData = [
             "Enhanced B2B user experience through simplified reorder flows and product filtering",
             "Performed OpenCart performance tuning and SEO optimization"
         ],
-        role: ["OpenCart Developer", "Frontend"]
+        role: ["OpenCart Developer, ", "Frontend"]
 
     },
     {
@@ -441,7 +441,7 @@ const projectsData = [
             "Enhanced readability and interaction flow with a minimalist and accessible layout",
             "Implemented a content management system allowing non-tech edits by the client"
         ],
-        role: ["WordPress Developer", "UI/UX", "SEO"]
+        role: ["WordPress Developer, ", "UI/UX, ", "SEO"]
 
     },
     {
@@ -462,7 +462,7 @@ const projectsData = [
             "Implemented content sections highlighting project milestones and client testimonials",
             "Ensured full responsiveness with pixel-perfect design across mobile/tablet/desktop"
         ],
-        role: ["Backend", "Frontend", "UI/UX Designer"]
+        role: ["Backend, ", "Frontend, ", "UI/UX Designer"]
 
     },
     {
@@ -483,7 +483,7 @@ const projectsData = [
             "Optimized site structure and performance for quick access across all devices",
             "Integrated blog and resource center for content marketing strategy"
         ],
-        role: ["Full-Stack Developer", "Content Integrator", "UI/UX"]
+        role: ["Full-Stack Developer, ", "Content Integrator, ", "UI/UX"]
 
     },
     {
@@ -504,7 +504,7 @@ const projectsData = [
             "Showcased procedures with high-quality visuals and benefit-focused content",
             "Implemented SEO structure tailored to medical tourism keywords and regions"
         ],
-        role: ["WordPress Developer", "Multilingual UX", "SEO"]
+        role: ["WordPress Developer, ", "Multilingual UX, ", "SEO"]
 
     },
     {
@@ -525,7 +525,7 @@ const projectsData = [
             "Designed an elegant, modern UI layout optimized for creative agencies and media brands",
             "Integrated image and media upload handling with validation and secure storage"
         ],
-        role: ["Backend", "Frontend", "UX Designer"]
+        role: ["Backend, ", "Frontend, ", "UX Designer"]
 
     },
     {
@@ -546,7 +546,7 @@ const projectsData = [
             "Implemented content moderation and admin tools for post and user control",
             "Ensured full responsiveness with dynamic layout adaptations across devices"
         ],
-        role: ["Full-Stack", "Backend", "UI/UX"]
+        role: ["Full-Stack, ", "Backend, ", "UI/UX"]
 
     },
     {
@@ -567,7 +567,7 @@ const projectsData = [
             "Implemented secure redirect logic and QR integration for each short link",
             "Optimized system for fast redirect response and high-availability hosting"
         ],
-        role: ["Backend", "Full-Stack", "Analytics Logic"]
+        role: ["Backend, ", "Full-Stack, ", "Analytics Logic"]
 
     },
     {
@@ -588,7 +588,7 @@ const projectsData = [
             "Designed intuitive frontend to simplify QR creation for all user levels",
             "Secured user accounts and link tracking for professional usage"
         ],
-        role: ["Full-Stack", "Backend", "UX"]
+        role: ["Full-Stack, ", "Backend, ", "UX"]
 
     },
     {
@@ -609,7 +609,7 @@ const projectsData = [
             "Integrated QR code generation tied to each unique vCard link",
             "Ensured mobile-first design for smart sharing in networking events and meetings"
         ],
-        role: ["Full-Stack", "Backend", "UX Designer"]
+        role: ["Full-Stack, ", "Backend, ", "UX Designer"]
 
     },
     {
