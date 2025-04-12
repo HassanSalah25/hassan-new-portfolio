@@ -40,6 +40,7 @@ export default function Work() {
 												</Link>
 											</div>
 											<p className="text-300 mb-lg-auto mb-md-4 mb-3">{project.description}</p>
+
 											{project.responsibilities && (
 												<div className="d-md-flex mt-2 content flex-column mb-2">
 													<p className="mb-1 fs-7 text-dark text-uppercase">Responsibilities</p>
@@ -50,24 +51,42 @@ export default function Work() {
 													</ul>
 												</div>
 											)}
+
 											<div className="d-md-flex content">
 												<p className="mb-0 fs-7 text-dark text-uppercase w-40">Our Role</p>
 												{project.role && (
 													<p className="mb-0 card__description text-300 fs-6">{project.role}</p>
 												)}
 											</div>
+
 											<div className="d-md-flex content">
 												<p className="mb-0 fs-7 text-dark text-uppercase w-40">Date</p>
 												<p className="mb-0 card__description text-300 fs-6">{project.date}</p>
 											</div>
+
 											<div className="d-md-flex content">
 												<p className="mb-0 fs-7 text-dark text-uppercase w-40">Tools</p>
 												<p className="mb-0 card__description text-300 fs-6">{project.tools}</p>
 											</div>
+
+											{/* 💥 Button Section Below 💥 */}
+											<div className="d-flex gap-3 mt-3 flex-wrap">
+												{project.github && (
+													<a href={project.github} target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark btn-sm">
+														<i className="ri-github-fill me-1"></i> GitHub
+													</a>
+												)}
+												{project.link && (
+													<a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">
+														<i className="ri-eye-line me-1"></i> View Now
+													</a>
+												)}
+											</div>
+											{/* 🎯 End Buttons */}
 										</div>
 									</div>
 								</div>
-							))}
+							))}	
 						</div>
 					</div>
 				</div>
